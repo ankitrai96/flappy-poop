@@ -1,0 +1,109 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#container{
+  margin: 0 auto;
+  padding: 3px;
+  height: 65%;
+  width: 95%;
+}
+
+#champ{
+margin: 0 auto;
+display: flex;
+background-image: url("award-base.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.9;
+height: 100%;
+width: 100%%
+position: relative;
+
+}
+
+#champ p {
+  position: absolute;
+  top: 56.75%;
+  left: 41%;
+  margin: 0;
+  font-weight: bold;
+  font-size: 19px;
+  color: gold;
+  z-index: 999;
+}
+
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #999;
+}
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
+}
+#name_box {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 75%;
+    margin: auto;
+    z-index: 10;
+    border: 1px green solid;
+    display: none;
+}
+#leaderboard {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 75%;
+    margin: auto;
+    z-index: 10;
+    border: 1px green solid;
+    display: none;
+}
+input{
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+table {
+          border-collapse: collapse;
+          width: 100%;
+          top: 2px;
+      }
+
+      th, td {
+          text-align: left;
+          padding: 8px;
+      }
+
+      tr:nth-child(even){background-color: #f2f2f2}
+
+      th {
+          background-color: #4CAF50;
+          color: white;
+      }
+#toggle1, #toggle2 {
+  display: none;
+}
