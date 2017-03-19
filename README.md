@@ -12,6 +12,6 @@ The game environment is based on p5.js library.
 
 ![Flappy Poop Game Cover](https://github.com/ankitrai96/flappy-poop/resource/File_000.jpg)
 
-![Flappy Poop Game Cover](https://github.com/ankitrai96/flappy-poop/resource/File_000(1).jpg)
+![Flappy Poop Game Cover](https://github.com/ankitrai96/flappy-poop/blob/master/resource/File_000%20(1).png)
 
 Feel free to play and hack :wink: :smiley:
