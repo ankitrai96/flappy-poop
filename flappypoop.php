@@ -80,15 +80,9 @@
     #dialogbox > div > #dialogboxbody{ background:#333; padding:20px; color:#FFF; font-size:20px; }
     #dialogbox > div > #dialogboxfoot{ background: #666; padding:10px; text-align:right;}
   </style>
-  <script type="text/javascript">
-    function fetch(){
-      console.log("function successfully called. Score="+ score);
-      return score;
-    }
   </script>
 </head>
 <body>
-  <p style="color: red; position: fixed; top: 0px; right: 2px; font-size: 35px; font-weight: bold;"><?php echo $_SESSION['highscore'];?></p>
   <div id="dialogoverlay"></div>
     <div id="dialogbox">
       <div>

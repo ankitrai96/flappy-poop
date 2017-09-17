@@ -31,7 +31,7 @@
     <meta property="og:title" content="Play Zone"/>
     <meta property="og:image" content="http://ankitrai.net/front_face.jpg"/>
     <meta property="og:url" content="http://play.ankitrai.net"/>
-    <link type="text/css" rel="stylesheet" href="decoration.css">
+    <link type="text/css" rel="stylesheet" href="resource/decoration.css">
     <link id="favicon" rel="shortcut icon" href="resource/favicon_flappypoop.png" type="image/png">
     <link rel="apple-touch-icon" sizes="194x194" href="resource/front_face.jpg" type="image/jpg">
     <script type="text/javascript">

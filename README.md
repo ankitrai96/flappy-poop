@@ -13,4 +13,8 @@ Secure the Poop Trophy by helping Mr. Poop reach as far as possible!
 
 ![Flappy Poop Game Cover](https://github.com/ankitrai96/flappy-poop/blob/master/resource/front_face.jpg)
 
+## Standalone Version
+
+a different version of this game without backend is also available at "standalone" branch of this repository.
+
 Feel free to play and hack :wink: :smiley:
