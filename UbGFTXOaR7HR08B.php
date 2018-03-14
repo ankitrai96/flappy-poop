@@ -3,10 +3,14 @@
     if(!isset($_SESSION['uid']) && isset($_POST['SNEzrIZfziJ9DSb'])){
       header("location: index.php");
     } else {
-    $servername = "localhost";
-    $username = "root";
+    /*
+        Database configuration
+        Modify as per database
+    */
+    $servername = "";
+    $username = "";
     $password = "";
-    $db_name="flappypoop";
+    $db_name = "";
     $fresh  = $_POST['SNEzrIZfziJ9DSb'];
     $_SESSION['score'] = $fresh;
     $name = $_SESSION['fname'];

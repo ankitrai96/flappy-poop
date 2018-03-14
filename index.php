@@ -1,10 +1,14 @@
 <?php
     session_start();
     session_unset();  
-    $servername = "localhost";
-    $username = "root";
+    /*
+        Database configuration
+        Modify as per database
+    */
+    $servername = "";
+    $username = "";
     $password = "";
-    $db_name = "flappypoop";
+    $db_name = "";
     $conn = mysqli_connect($servername, $username, $password, $db_name);
     $leaders=$conn->query("select name, lname, score from scores ORDER BY score DESC LIMIT 5");
     while($row=$leaders->fetch_array(MYSQLI_ASSOC))   
@@ -30,7 +34,7 @@
     <!-- Open Graph meta tags for Social Network Optimisation-->
     <meta property="og:title" content="Play Zone"/>
     <meta property="og:image" content="http://ankitrai.net/front_face.jpg"/>
-    <meta property="og:url" content="http://play.ankitrai.net"/>
+    <meta property="og:url" content="http://ankitrai96.github.io/flappy-poop"/>
     <link type="text/css" rel="stylesheet" href="resource/decoration.css">
     <link id="favicon" rel="shortcut icon" href="resource/favicon_flappypoop.png" type="image/png">
     <link rel="apple-touch-icon" sizes="194x194" href="resource/front_face.jpg" type="image/jpg">

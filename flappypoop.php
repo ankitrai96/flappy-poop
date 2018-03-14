@@ -1,9 +1,12 @@
 <?php
-
-        $servername = "localhost";
-        $username = "root";
+        /*
+            Database configuration
+            Modify as per database
+        */
+        $servername = "";
+        $username = "";
         $password = "";
-        $db_name = "flappypoop";
+        $db_name = "";
         $conn = mysqli_connect($servername, $username, $password, $db_name);
         session_start();
     if(isset($_SESSION['score']) || isset($_POST['uid'])){
