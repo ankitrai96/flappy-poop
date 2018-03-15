@@ -13,7 +13,9 @@ The game environment is based on p5.js library.
 Mr. Poop, the protagonist of game, must dodge obstacles while defeating gravity.
 Secure the Poop Trophy by helping Mr. Poop reach as far as possible!
 
+![Home Screen](https://github.com/ankitrai96/flappy-poop/blob/master/resource/Home_Screen.png)
 ![Gameplay](https://github.com/ankitrai96/flappy-poop/blob/master/resource/gameplayFlappyPoop.gif)
+![Leaderboard](https://github.com/ankitrai96/flappy-poop/blob/master/resource/Leaderboard.png)
 
 ### Configuration
 
