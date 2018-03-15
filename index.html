@@ -1,0 +1,62 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!--Meta tags for Search Engine Optimisation -->
+  <meta name="title" content="Flappy Poop"/>
+  <meta name="description" content="Spoof of Flappy Bird: Help the poop reach commode.">
+  <meta name="keywords" content="poop,flappy,bird,game,javascript,programming,p5.js,flappy poop">
+  <meta name="author" content="Ankit Rai">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Open Graph meta tags for Social Network Optimisation-->
+  <meta property="og:title" content="Flappy Poop"/>
+  <link id="favicon" rel="shortcut icon" href="resource/favicon_flappypoop.png" type="image/png">
+  <link rel="apple-touch-icon" sizes="194x194" href="resource/front_face.jpg" type="image/jpg">
+  <script language="javascript" type="text/javascript" src="resource/p5.js"></script>
+  <script language="javascript" src="resource/p5.dom.js"></script>
+  <script language="javascript" src="resource/p5.sound.js"></script>
+  <script language="javascript" type="text/javascript" src="resource/poop.js"></script>
+  <script language="javascript" type="text/javascript" src="resource/pipe.js"></script>
+  <script language="javascript" type="text/javascript" src="resource/sketch.js"></script>
+  <style>
+    html, body {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      padding:0;
+      margin:0;
+    }
+    body {
+      background-color: 00bfff;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #dialogoverlay{
+      display: none;
+      opacity: .8;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      background: #FFF;
+      width: 100%;
+      z-index: 10;
+    }
+    #dialogbox{
+      display: none;
+      background: #000;
+      border-radius:7px;
+      width:85%;
+      z-index: 10;
+    }
+    #dialogbox > div{ background:#FFF; margin:8px; }
+    #dialogbox > div > #dialogboxhead{ background: #666; font-size:22px; padding:10px; color:#CCC; }
+    #dialogbox > div > #dialogboxbody{ background:#333; padding:20px; color:#FFF; font-size:20px; }
+    #dialogbox > div > #dialogboxfoot{ background: #666; padding:10px; text-align:right;}
+  </style>
+  </script>
+</head>
+<body>
+  <!-- Magic is happeing inside sketch.js -->
+</body>
+</html>
