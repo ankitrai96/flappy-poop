@@ -9,6 +9,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Open Graph meta tags for Social Network Optimisation-->
   <meta property="og:title" content="Flappy Poop"/>
+  <meta property="og:url" content="https://ankitrai96.github.io/flappy-poop/" />
+  <meta property="og:image" content="https://ankitrai96.github.io/flappy-poop/resource/front_face.jpg" />
   <link id="favicon" rel="shortcut icon" href="resource/favicon_flappypoop.png" type="image/png">
   <link rel="apple-touch-icon" sizes="194x194" href="resource/front_face.jpg" type="image/jpg">
   <script language="javascript" type="text/javascript" src="resource/p5.js"></script>
@@ -57,6 +59,15 @@
   </script>
 </head>
 <body>
-  <!-- Magic is happeing inside sketch.js -->
+  <div id="dialogoverlay"></div>
+    <div id="dialogbox">
+      <div>
+        <div id="dialogboxhead">Score</div>
+        <div id="dialogboxbody"></div>
+        <div id="dialogboxfoot">
+          <button onclick="Alert.ok()">OK</button>
+        </div>
+    </div>
+  </div>
 </body>
 </html>

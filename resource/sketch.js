@@ -64,14 +64,13 @@ function keyPressed() {
      poop.up();
    }
   }
-  function touchStarted(){
+  /*function touchStarted(){
     poop.up();
       if(dialogbox.style.display == "block"){
         Alert.ok();
-        document.getElementById("regScore").submit(); 
       }
     return false;
-  }
+  }*/
   function windowResized() {
     if(displayWidth >1000 || displayHeight > 1000){
     resizeCanvas(windowWidth, windowHeight);

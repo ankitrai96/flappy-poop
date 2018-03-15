@@ -9,13 +9,13 @@ function CustomAlert(){
             dialogbox.style.left = (winW/2) - (550 * .5)+"px";
             dialogbox.style.top = "100px";
             dialogbox.style.display = "block";
-            document.getElementById('player_score').value = score;
             document.getElementById('dialogboxhead').innerHTML = "Score";
             document.getElementById('dialogboxbody').innerHTML = dialog;
         }
       this.ok = function(){
         document.getElementById('dialogbox').style.display = "none";
         document.getElementById('dialogoverlay').style.display = "none";
+        location.reload();
       }
     }
     var Alert = new CustomAlert();
