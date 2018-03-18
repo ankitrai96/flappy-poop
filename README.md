@@ -10,10 +10,12 @@ The game environment is based on p5.js library.
 
 ### GamePlay
 
-Mr. Poop, the protagonist of game, must dodge obstacles while defeating gravity.
-Secure the Poop Trophy by helping Mr. Poop reach as far as possible!
+Mr. Poop, the protagonist of this game, must dodge obstacles while defeating gravity. Secure the Poop Trophy by helping Mr. Poop reach as far as possible.
 
 ![Home Screen](https://github.com/ankitrai96/flappy-poop/blob/master/resource/Home_Screen.png)
+
+Players who cross the most bars will enter in the Leaderboard. And the one at the top of Leaderboard will get their name on the poop trophy!
+
 ![Leaderboard](https://github.com/ankitrai96/flappy-poop/blob/master/resource/Leaderboard.png)
 ![Gameplay](https://github.com/ankitrai96/flappy-poop/blob/master/resource/gameplayFlappyPoop.gif)
 
@@ -21,7 +23,7 @@ Secure the Poop Trophy by helping Mr. Poop reach as far as possible!
 
 1. Download this repository 
 2. Create a database. Take note of its host, user and password. (For XAMPP/LAMPP/MAMP users the default values are localhost, root and "" respectively)
-3. Edit all .php files according to particulars noted in step 1
+3. Edit all .php files according to particulars noted in step 2
 4. Import "flappypoop.sql" into your database
 5. All set. Let's play!
 
